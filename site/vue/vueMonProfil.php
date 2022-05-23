@@ -6,15 +6,15 @@ Mon pseudo : <?= $util["pseudoU"] ?> <br />
 
 <hr>
 
-les restaurants que j'aime : <br />
+les Articles que j'aime : <br />
 <?php for($i=0;$i<count($mesRestosAimes);$i++){ ?>
-    <a href="./?action=detail&idR=<?= $mesRestosAimes[$i]["idR"] ?>"><?= $mesRestosAimes[$i]["nomR"] ?></a><br />
+    <a href="./?action=detail&idR=<?= $mesArticlesAimes[$i]["idR"] ?>"><?= $mesArticlesAimes[$i]["nomR"] ?></a><br />
 <?php } ?>
 <hr>
-les types de cuisine que j'aime : 
+les types d'Articles que j'aime : 
 <ul id="tagFood">		
-<?php for($i=0;$i<count($mesTypeCuisineAimes);$i++){ ?>
-    <li class="tag"><span class="tag">#</span><?= $mesTypeCuisineAimes[$i]["libelleTC"] ?></li>
+<?php for($i=0;$i<count($mesTypeArticlesAimes);$i++){ ?>
+    <li class="tag"><span class="tag">#</span><?= $mesTypeArticlesAimes[$i]["libelleTC"] ?></li>
 <?php } ?>
 </ul>
 <hr>

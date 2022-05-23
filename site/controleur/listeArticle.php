@@ -1,4 +1,13 @@
 <?php
+// creation du menu burger
+$menuBurger = array();
+$menuBurger[] = Array("url"=>"./?action=connexion","label"=>" Air Jordan");
+$menuBurger[] = Array("url"=>"./?action=inscription","label"=>"Basektball");
+$menuBurger[] = Array("url"=>"./?action=Questions fréquentes","label"=>"Lifestyle");
+$menuBurger[] = Array("url"=>"./?action=inscription","label"=>"Running");
+$menuBurger[] = Array("url"=>"./?action=Questions fréquentes","label"=>"Fitnss et training");
+$menuBurger[] = Array("url"=>"./?action=inscription","label"=>"Skateboard");
+$menuBurger[] = Array("url"=>"./?action=Questions fréquentes","label"=>"Personnalisation");
 if ( $_SERVER["SCRIPT_FILENAME"] == __FILE__ ){
     $racine="..";
 }

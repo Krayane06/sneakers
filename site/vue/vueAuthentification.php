@@ -1,14 +1,19 @@
 <h1>Connexion</h1>
 <form action="./?action=connexion" method="POST">
 
-    <input type="text" name="Mail" placeholder="Email de connexion" /><br />
-    <input type="password" name="mdp" placeholder="Mot de passe"  /><br />
-    <input type="submit" />
+<br><input type="text" value=""  placeholder="Email"/><br/>
+<br><input type="text" value=""  placeholder="Mot de passe"/><br/>
+ <input type="submit" />
 
 </form>
 <br />
 <center>
-<a href="./?action=inscription">Inscription</a>
-</center>
+<h1>Inscription</h1></center>
+<input type="text" value=""  placeholder="Nom"/>
+<input type="text" value=""  placeholder="Prenom"/>
+<input type="text" value=""  placeholder="Email"/>
+<input type="text" value=""  placeholder="Mot de passe"/>
+ <input type="submit" />
+
 
 

@@ -8,19 +8,24 @@
         case "nom":
             ?>
             Recherche par nom : <br />
-            <input type="text" name="nom_article" placeholder="nom" value="<?= $nom_article?>" /><br />
+            <input type="text" name="nom_article" placeholder="nom" value=""<?= $nom_article?>/><br/>
             <?php
             break;
         case "adresse":
             ?>
             Recherche par type : <br />
-            <input type="text" name="libelle_type" placeholder="libelle" value="<?= $vlibelle_type ?>"/><br />
-            
+            <input type="text" name="libelle_type" placeholder="libelle" value=""<?= $libelle_type ?>/><br/>
             <?php
             break;
     }
     ?>
     <br /><br />
-    <input type="submit" value="Rechercher" />
-
+    <div>Recherche par nom : </div>
+    <input type="text" value=""  placeholder="Recherche par nom.."/>
+    <br><input type="submit" /><br/>
+    <br /><br />
+    <div>Recherche par type : </div>
+    <input type="text" value="" placeholder="Recherche par type.." />
+    <br /><input type="submit" />
+    <br />
 </form>

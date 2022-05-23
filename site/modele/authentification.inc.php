@@ -57,13 +57,7 @@ if ($_SERVER["SCRIPT_FILENAME"] == __FILE__) {
     header('Content-Type:text/plain');
 
 
-    // test de connexion
-    login("test@bts.sio", "sio");
-    if (isLoggedOn()) {
-        echo "logged";
-    } else {
-        echo "not logged";
-    }
+
 
     // deconnexion
     logout();

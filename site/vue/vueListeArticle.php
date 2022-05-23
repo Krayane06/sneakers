@@ -16,13 +16,14 @@ for ($i = 0; $i < count($listeArticle); $i++) {
 
 
         </div>
-        <div class="descrCard"><?php echo "<a href='./?action=detail&id_article=" . $listeArticle[$i]['id_article'] . "'>" . $listeArticle[$i]['nom_article'] . "</a>"; ?>
+        <div class="descrCard"><?php echo "<a href='./?action=detail&id_article=" . $listeArticle[$i]['id_article']. "'>" .$listeArticle[$i]['nom_article'] . "</a>"; ?>
         <center>
-            <br />
+        <br>
             <?= $listeArticle[$i]["Marque"] ?>
-            <br />
-            <br />
+            </br>
+            <br>
             <?= $listeArticle[$i]["Prix"] ?>
+            </br>
             </center>
         </div>
         <div class="tagCard">

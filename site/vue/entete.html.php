@@ -8,6 +8,7 @@
             @import url("css/form.css");
             @import url("css/cgu.css");
             @import url("css/corps.css");
+            @import url("css/menu.css");
         </style>
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     </head>
@@ -24,9 +25,9 @@
             <li><a href="./?action=profil"><img src="images/profil.png" alt="loupe" />Mon Profil</a></li>
             <?php } 
             else{ ?>
-            <li><a href="./?action=connexion"><img src="images/profil.png" width= "15%" alt="loupe" />Connexion</a></li>
+            <li id="connexion"><a href="./?action=connexion"><img src="images/profil.png" width= "15%" alt="loupe" />Connexion</a></li>
             <?php } ?>
-
+            <li id="inscription"><a href="./?action=connexion">/Inscription</a></li>
         </ul>
     </nav>
     <div id="bouton">
