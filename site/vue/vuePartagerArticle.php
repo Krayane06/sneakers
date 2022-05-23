@@ -1,4 +1,4 @@
-<h1>Partager une table</h1>
+<h1>Partager un Article</h1>
 <form method="post">
     <label for="ville">Dans quelle ville :</label><br>
     <input type="text' id="ville" name="villeR">

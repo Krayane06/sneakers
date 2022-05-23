@@ -20,7 +20,7 @@ if (isLoggedOn()){
     $mailU = getMailULoggedOn();
     $util = getUtilisateurByMail($mailU);
     
-    $mesTypeCuisineAimes = getTypesCuisinePreferesByMailU($mailU);
+    $mesTypeCuisineAimes = getType_de_chaussureBymail($mail);
     // traitement si necessaire des donnees recuperees
 
 

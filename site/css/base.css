@@ -12,8 +12,8 @@
     --coulB1:#566459;
     --coulB2:#90974A;
     --coulC:#CDBCA0;
-    --fondC:#fcfbfb;
-    --padding_cote:5px;
+    --fondC:blanc;
+    --padding_cote:10px;
 }
 
 
@@ -145,7 +145,7 @@ nav {
 
 #menuGeneral>li>a{
     height : var(--hauteurMenuGene);
-    display : inline-block;
+    display : inline-block; 
     vertical-align: middle;
     color:#eee;
     text-shadow: 1px 1px 2px #000;
@@ -236,3 +236,4 @@ a.aimer{
 #alerte{
     background-color: #FC2500;
 }
+

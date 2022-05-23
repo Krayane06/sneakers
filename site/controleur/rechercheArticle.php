@@ -9,7 +9,7 @@ include_once "$racine/modele/bd.photo.inc.php";
 // creation du menu burger
 $menuBurger = array();
 $menuBurger[] = Array("url"=>"./?action=recherche&critere=nom","label"=>"Recherche par nom");
-$menuBurger[] = Array("url"=>"./?action=recherche&critere=type","label"=>"Recherche par type");
+$menuBurger[] = Array("url"=>"./?action=recherche&critere=type","label"=>"Recherche par marque");
 // critere de recherche par defaut
 $critere = "nom_article";
 if (isset($_GET["critere"])) {
@@ -17,17 +17,6 @@ if (isset($_GET["critere"])) {
 }
 
 // recuperation des donnees GET, POST, et SESSION
-if (isset($_GET["critere"])){
-    $critere = $_GET["critere"];
-}
-$nom_article="";
-if (isset($_POST["nom_article"])){
-    $nom_article = $_POST["nom_article"];
-}
-$tabIdTC = array();
-if(isset($_POST["libelle_type"])){
-    $$libelle_type = $_POST["libelle_type"];
-}
 
 
 // appel des fonctions permettant de recuperer les donnees utiles a l'affichage 
