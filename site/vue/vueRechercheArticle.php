@@ -24,8 +24,8 @@
     <input type="text" value=""  placeholder="Recherche par nom.."/>
     <br><input type="submit" /><br/>
     <br /><br />
-    <div>Recherche par type : </div>
-    <input type="text" value="" placeholder="Recherche par type.." />
+    <div>Recherche par marque : </div>
+    <input type="text" value="" placeholder="Recherche par marque.." />
     <br /><input type="submit" />
     <br />
 </form>
